@@ -3,12 +3,7 @@ import { combineReducers } from 'redux'
 import { ADD, DELETE } from '../contants/todo'
 
 const INITE_STATE = {
-    todos: [
-        {
-            id: 0,
-            text: '第一条todo'
-        }
-    ]
+    todos: []
 }
 
 function todos(state = INITE_STATE, action) {

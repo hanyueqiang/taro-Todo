@@ -61,6 +61,7 @@ class Index extends Component {
 
     return (
       <View className='index todos'>
+        <View className="todo-header">Taro-Todo</View>
         <View className='add_wrap'>
           <Input placeholder="填写新的todo" onBlur={this.saveNewTodo.bind(this)} value={newTodo} />
           <Button className='add' onClick={this.addTodo.bind(this)}>添加</Button>
